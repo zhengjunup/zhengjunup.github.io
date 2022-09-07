@@ -7,6 +7,43 @@
     <title>郑军-web前端-简历</title>
   </head>
   <body>
-    这是一个没有任何第三方抵赖的简历
+    <div class="container">
+      <div class="header">
+        <div class="left">
+          <div class="item">
+            <span>姓名：</span>
+            <span>郑军</span>
+          </div>
+        </div>
+        <div class="right"></div>
+      </div>
+    </div>
+    <div class="tech-desc-wrap">本简历未引用任何第三方库</div>
   </body>
+  <script>
+    const reg = /^((?!.*}).*)|([0-9]|[a-z]|[A-Z])+(\.([0-9]|[a-z]|[A-Z]))+$/;
+  </script>
+  <style>
+    .container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+    .container .header {
+      height: 160px;
+      padding: 20px;
+      font-size: 16px;
+    }
+    .tech-desc-wrap {
+      width: 30px;
+      position: fixed;
+      left: 20px;
+      bottom: 100px;
+      color: #5e5e5e;
+      display: flex;
+      justify-content: center;
+      border: #000000 1px solid;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
 </html>
