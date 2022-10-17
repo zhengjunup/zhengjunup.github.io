@@ -1,49 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>郑军-web前端-简历</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <div class="left">
-          <div class="item">
-            <span>姓名：</span>
-            <span>郑军</span>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>郑军-web前端-简历</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="left">
+        <div class="item">
+          <span>姓名：</span>
+          <span>郑军</span>
         </div>
-        <div class="right"></div>
       </div>
+      <div class="right"></div>
     </div>
-    <div class="tech-desc-wrap">本简历未引用任何第三方库</div>
-  </body>
-  <script>
-    const reg = /^((?!.*}).*)|([0-9]|[a-z]|[A-Z])+(\.([0-9]|[a-z]|[A-Z]))+$/;
-  </script>
-  <style>
-    .container {
-      width: 1200px;
-      margin: 0 auto;
-    }
-    .container .header {
-      height: 160px;
-      padding: 20px;
-      font-size: 16px;
-    }
-    .tech-desc-wrap {
-      width: 30px;
-      position: fixed;
-      left: 20px;
-      bottom: 100px;
-      color: #5e5e5e;
-      display: flex;
-      justify-content: center;
-      border: #000000 1px solid;
-      text-align: center;
-      padding: 10px 0;
-    }
-  </style>
+  </div>
+  <div class="tech-desc-wrap">本简历未引用任何第三方库</div>
+</body>
+<script>
+  const reg = /^((?!.*}).*)|([0-9]|[a-z]|[A-Z])+(\.([0-9]|[a-z]|[A-Z]))+$/;
+</script>
+<style>
+  * {
+    padding: 0;
+    margin: 0
+  }
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+    background: url("./bg.gif");
+  }
+
+  .container {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+  }
+
+  .container .header {
+    height: 160px;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .tech-desc-wrap {
+    width: 30px;
+    position: fixed;
+    left: 20px;
+    bottom: 100px;
+    color: #5e5e5e;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    opacity: 0.8;
+    border: #000000 1px solid;
+    text-align: center;
+    padding: 10px 0;
+  }
+</style>
+
 </html>
