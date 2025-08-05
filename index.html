@@ -1,12 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>简历</title>
-  </head>
-  <body>
-    <div>我将在这里完成我的简历</div>
-  </body>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>个人简历</title>
+  <style>
+    body {
+      font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 40px;
+    }
+    .resume {
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .info div {
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <h1>张三</h1>
+    <div class="info">
+      <div>📧 邮箱: zhangsan@example.com</div>
+      <div>📞 电话: 138-0000-0000</div>
+      <div>📍 地址: 上海市浦东新区</div>
+      <div>🌐 个人主页: www.zhangsan.com</div>
+    </div>
+
+    <div class="section">
+      <h2>教育背景</h2>
+      <p><strong>复旦大学</strong> — 计算机科学与技术，本科（2015 - 2019）</p>
+    </div>
+
+    <div class="section">
+      <h2>工作经历</h2>
+      <p><strong>腾讯科技有限公司</strong> — 前端开发工程师（2019 - 至今）</p>
+      <ul>
+        <li>负责公司 Web 项目前端架构设计与开发</li>
+        <li>主导多个 React/Vue 项目的重构与性能优化</li>
+        <li>协作团队推动产品快速迭代上线</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>技能</h2>
+      <ul>
+        <li>熟练掌握 JavaScript、TypeScript、HTML、CSS</li>
+        <li>熟悉 React、Vue 等主流框架</li>
+        <li>了解 Node.js、Webpack、Git 等开发工具</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>项目经验</h2>
+      <p><strong>企业级管理后台系统</strong></p>
+      <ul>
+        <li>技术栈：React + Ant Design + Redux</li>
+        <li>实现用户权限控制、图表可视化、复杂表单处理等功能</li>
+        <li>部署至企业私有云环境，日活用户超 5000 人</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>自我评价</h2>
+      <p>热爱编程，追求代码质量，善于团队协作，愿意不断学习新技术解决复杂问题。</p>
+    </div>
+  </div>
+</body>
 </html>
